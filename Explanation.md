@@ -72,7 +72,7 @@
             ```
 
     - ### Time Complexity:
-        - **$O(n)$**: We iterate through the array once. For each pair of consecutive elements, the parity check and comparison takes constant time ($O(1)$). So, the overall time complexity is linear with respect to the number of elements in the array.
+        - **$O(n)$**: We iterate through the array once. For each pair of consecutive elements, the parity check and comparison takes constant time $O(1)$. So, the overall time complexity is linear with respect to the number of elements in the array.
 
     - ### Space Complexity:
         - **$O(1)$**: We only use a fixed amount of space for the bitwise results and the loop index. No additional space is needed that scales with the size of the input array, so the space complexity is constant.
